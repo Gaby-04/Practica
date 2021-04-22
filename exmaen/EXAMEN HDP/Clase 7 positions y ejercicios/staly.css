@@ -1,0 +1,47 @@
+/*para quitar el marge que aparece al rededor del disenio solo se hace lo sieguienete*/
+body {
+
+    margin: 0;
+}
+
+
+#cuadro1, #cuadro2, #cuadro3 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+/*posicions: static, relative, absolute, fixed*/
+/*#container {
+    width: 100%;
+    height: 100px;
+    background-color:darkolivegreen;
+    position: fixed; /*se esta encima de los demas elementos el cual hace un scroll*/
+    /*top: 0px;
+    /*position: relative; 
+    /*al escribir solo esto no afecta pero al poner lo de abajo si
+    /*top: 50px; /* ////////en este caso los elementos de el flujo no los afecta es decir que este flota 
+    sobre los otros recuadros y pasa por encima*/
+    /*bottom: 0;*/
+    /*left: 0px; /*todo el cuadro esta a la derecha*/
+   
+
+
+#cuadro1 {
+ 
+     background-color: aquamarine;
+     /**position: absolute; /*que da fijo que el lado derecho esta absoluto a una posicion dada*/
+     /**right: 0px; /*se pasa el cuadro todo a la derecha*/
+}
+
+#cuadro2 {
+
+    background-color: burlywood;
+
+}
+
+#cuadro3 {
+
+    background-color: crimson;
+}

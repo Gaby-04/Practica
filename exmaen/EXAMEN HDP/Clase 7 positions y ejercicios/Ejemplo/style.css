@@ -1,0 +1,52 @@
+body {
+background-color:deepskyblue;
+    text-align: center; /*para centrar todo de una vez todas las imagenes y el texto*/
+}
+
+h1 {
+position: relative;
+
+    margin: 0;
+    margin-top: 20px; /*margen de abajo*/
+}
+/*las imagenes vienen con defecto com el iline-block*/
+#nube1, #nube2 {
+    display: inline-block;
+width: 200px;
+height: auto; 
+ 
+}
+
+
+#container {
+width: 150px;
+margin: 0 auto; /* auto representa izq y der al poner en el navegador izq y der el auto solo lo centra*/
+position:absolute; /**absoluta porque nosotros vamos a poner adonde debe ir con los left y rignth*/
+right: 450px;
+top: 75px;
+
+}
+
+#nube2{
+position: relative;
+top: 150px;
+right: 150px;
+
+}
+
+#montania {
+   margin: 0 auto;
+   display: block;
+
+
+}
+
+#sol2 {
+    bottom: 575px; /*arriba*/
+    position: relative;
+    width: 150px; /*tamanio del sol*/
+    height: auto;
+    right: 20px;
+ 
+   
+}
